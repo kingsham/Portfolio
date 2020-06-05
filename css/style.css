@@ -1,0 +1,108 @@
+.logo{
+    border-radius: 20px;
+    border-color: azure;
+}
+body{
+    font-family: 'Teko', sans-serif;
+    font-size: 24px;
+
+}
+.hm-home{
+    color: rgb(210, 61, 96) !important;
+
+}
+.nav-bio{
+    color: rgb(210, 61, 96) !important;
+
+}
+.nav-contact{
+    color: rgb(210, 61, 96) !important;
+
+}
+.nav-projects{
+    color: rgb(210, 61, 96) !important;
+
+}
+.navbar ul li a:hover{
+    background:white;
+    border-radius: 2px;
+
+
+}
+ #display{
+     background: url('../imgs/coverr.png.jpg')
+     no-repeat center/cover;
+     background-attachment: fixed;
+     height: 100vh;
+     color: white;
+     opacity: 0.9;
+ }
+ .explain{
+    padding-bottom: 45px;
+    font-family: 'Teko', sans-serif;
+    font-size:65px;
+    text-align: center;
+    padding-top: 20rem;
+ }
+ .btn-sm{
+
+    padding: 0.5rem 2rem;
+    font-size: 26px;
+    font-family: 'Teko', sans-serif;
+    text-align: right;
+    border-radius: 10px;
+
+
+
+ }
+ #container{
+     text-align: center;
+ }
+ .container-xl{
+    width:100%;
+    margin:auto;
+    padding: 0 2rem;
+    height:80vh;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+
+
+ }
+ #navbar{
+     background: rgb(0, 0,0,0.7);
+
+ }
+#title{
+    text-align: center;
+}
+
+
+ section#about{
+     background-color: rgb(216, 205, 205);
+ }
+ section#projects{
+
+     background-color: rgb(176, 171, 171);
+ }
+#contact{
+    padding-top: 15rem;
+    height: 100vh;
+}
+
+.flex-row{
+    padding-top: 3rem;
+    justify-content: space-between;
+}
+
+
+.card-title{
+    text-align: center;
+}
+
+#glow{
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+color:rgb(255, 102, 47);
+
+}
