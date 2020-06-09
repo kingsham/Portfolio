@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400&display=swap" rel="stylesheet">
+  />
+
 </head>
 <body>
 
@@ -17,7 +19,7 @@
             <!-- Image and text -->
             <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark" id="navbar">
                 <a class="navbar-brand" href="#">
-                    <img src="./imgs/Universal.png" class="logo" width="90" height="90" class="d-inline-block align-top" alt="" loading="lazy">
+                    <img src="./imgs/logo-0.png" class="logo" width="120rem" height="100rem" class="d-inline-block align-top" alt="" loading="lazy">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -39,7 +41,7 @@
                   </ul>
                 </div>
               </nav>
-            
+
               <header id="display">
                 <h1 class="explain">My journey as a software developer</h1>
                  <div id="container">
@@ -56,15 +58,17 @@
 <div class="container-xl">
 
 <h1> About Me 🧑🏾‍🦱</h1>
-<p id=des>
-    Hi! My name is Shamar Knibbs I am 25 years old and studying to pursue my bachelors degree in computer science.
+
+    <div class="text-center">
+        <img src="./imgs/profesJPG.JPG" width= 295px height="275px" class="rounded img-fluid img-thumbnail" alt="...">
+      </div>
+   
+      <p data-aos="fade-right"> Hi! My name is Shamar Knibbs I am 25 years old and studying to pursue my bachelors degree in computer science.
   I love creating, software development allows me to do so. I've created several projects in the past to learn and enhance my skills as an upcoming software developer. I gained real world experience by completing 3 internships so far in this field.
-    
   
-  <div class="text-center">
-    <img src="./imgs/profesJPG.JPG" width= 295px height="275px" class="rounded img-fluid img-thumbnail" alt="...">
-  </div>
-  <input type="image" src="imgs/profesJPG.JPG" width= 230px height="300px">
+    </p>
+      
+
 </div>
 
 </div>
@@ -75,47 +79,58 @@
 <section id="projects">
 <h1 id="title">Projects</h1>
 <div class="d-flex flex-row   bd-highlight mb-3">
-    <div class="card" style="width: 25rem;">
+    <div class="card" data-aos="zoom-in" style="width: 25rem;">
         <img src="./imgs/beat.png" class="card-img-top" alt="...">
         <div class="card-body shadow p-3 rounded">
           <h5 class="card-title">Beat Machine</h5>
-          <p>Tools used: HTML , CSS , and Javascript </p>
-         
+          <p id="mac">Tools used: HTML , CSS , and Javascript </p>
+
           <a href="https://kingsham.github.io/Beat-Machine/" class="btn btn-primary">Click here</a>
         </div>
       </div>
-      <div class="card" style="width: 25rem;">
+      <div class="card" data-aos="zoom-in" style="width: 25rem;">
         <img src="./imgs/lights-out.png" class="card-img-top" alt="...">
         <div class=" card-body shadow p-3 rounded">
           <h5 class="card-title">Lights Out</h5>
-          <p>Tools used: React and CSS</p>
+          <div id="container">
+          <p id="neon">Tools used: React and CSS</p>
+          </div>
 
           <a href="https://kingsham.github.io/Lights-Out/" class="btn btn-primary">Click here</a>
         </div>
       </div>
 
-      <div class="card" style="width: 25rem;">
+      <div class="card"   data-aos="zoom-in" style="width: 25rem;">
         <img src="./imgs/gif.png" class="card-img-top" alt="...">
         <div class="card-body shadow p-3 rounded">
           <h5 class="card-title">Gif Search</h5>
-          <p id="glow">Tools used: React and CSS</p>
+          <p id="glow"> Tools used: React and CSS</p>
           <a href="https://kingsham.github.io/GIF-Search/" class="btn btn-primary">Click here</a>
         </div>
       </div>
 
 
 </div>
-    
-<div class="card" style="width: 25rem;">
+<div class="d-flex flex-row   bd-highlight mb-3">
+<div class="card" data-aos="zoom-in" style="width: 25rem;">
     <img src="./imgs/pokemon.png" class="card-img-top" alt="...">
     <div class="card-body shadow p-3 rounded">
       <h5 class="card-title">Pokemon</h5>
-      <p>Tools used: React and CSS</p>
+      <p id="pok">Tools used: React and CSS</p>
 
       <a href="https://github.com/kingsham/Pokemon" class="btn btn-primary">Click here</a>
     </div>
   </div>
 
+  <div class="card " data-aos="zoom-in" style="width: 25rem;">
+    <img src="./imgs/img-mod.png" class="card-img-top" alt="...">
+    <div class="card-body shadow p-3 rounded">
+      <h5 class="card-title">Image Modifier</h5>
+      <p id=>Tools used: HTML/CSS and Javascript</p>
+
+      <a href="https://github.com/kingsham/Pokemon" class="btn btn-primary">Click here</a>
+    </div>
+  </div>
 
 
 
@@ -127,7 +142,7 @@
 </section>
 <section id="contact">
     <h1>Contact</h1>
-    <i class="fa fa-camera-retro"></i>
+   
 
 
     </div>
@@ -138,8 +153,14 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 2000,
+            });
+          </script>
 
-    </body>
+
+    
     </div>
 </body>
 </html>

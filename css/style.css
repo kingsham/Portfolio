@@ -43,7 +43,10 @@ body{
     font-size:65px;
     text-align: center;
     padding-top: 20rem;
+    
  }
+ 
+
  .btn-sm{
 
     padding: 0.5rem 2rem;
@@ -65,6 +68,7 @@ body{
     height:80vh;
     text-align: center;
     font-family: 'Teko', sans-serif;
+    background-attachment: fixed;
 
 
  }
@@ -79,30 +83,63 @@ body{
 
  section#about{
      background-color: rgb(216, 205, 205);
+     background-attachment: fixed;
  }
  section#projects{
-
+    background-attachment: fixed;
      background-color: rgb(176, 171, 171);
+     height: 150vh;
  }
 #contact{
     padding-top: 15rem;
-    height: 100vh;
+    height: 150vh;
 }
 
 .flex-row{
     padding-top: 3rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    
 }
 
+.flex-row #img-card{
+    justify-self: flex-end;
 
+}
 .card-title{
     text-align: center;
 }
 
-#glow{
--webkit-animation: glow 1s ease-in-out infinite alternate;
--moz-animation: glow 1s ease-in-out infinite alternate;
-animation: glow 1s ease-in-out infinite alternate;
-color:rgb(255, 102, 47);
+#neon{
 
+
+    animation: neon 3s ease infinite;
+    -moz-animation: neon 3s ease infinite;
+    -webkit-animation: neon 3s ease infinite;
 }
+#glow{
+    color:  rgb(254, 54, 40);
+}
+#mac{
+   color: rgb(254, 54, 40);
+}
+#pok{
+    color: rgb(245, 94, 84);
+}
+
+@keyframes neon {
+    0%,
+    100% {
+
+      color: rgb(254, 54, 40);
+    }
+    50% {
+      text-shadow: 0 0 .5vw #bfc6df, 0 0 1.5vw #082180, 0 0 5vw #f3f3f6, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+      color: rgb(211, 122, 100);
+    }
+  }
+
+
+  .btn {
+      text-align: center;
+  }
+
